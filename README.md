@@ -22,8 +22,18 @@ pip install regex
 
 Role Variables
 --------------
+```yaml
+// Oh My ZSH
+zsh_pref:
+  home: $HOME/.oh-my-zsh
+  theme: awesomepanda
+  plugins:
+    - git
+    - zsh-syntax-highlighting
+    - zsh-autosuggestions
+```
 
-None.
+More details are into [defaults](defaults)
 
 Dependencies
 ------------
