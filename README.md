@@ -6,7 +6,11 @@ A bundle of projects to help developer tools installations.
 Requirements
 ------------
 
-* Homebrew Installation:
+* Homebrew Installation
+* Python
+* Ansible
+* Pip
+
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
