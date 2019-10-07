@@ -1,10 +1,17 @@
 ---
-- name: 'Install tap versions'
-  homebrew_tap:
-    name: caskroom/versions
-    state: present
-
 - name: 'Install java'
   homebrew_cask:
     name: java
     state: present
+
+- name: Install Maven
+  homebrew:
+    name: maven
+    state: present
+
+- name: Install gradle
+  homebrew:
+    name: gradle
+    state: present
+    
+ # SETUP VARIABLES ENVIRONMENT
